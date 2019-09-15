@@ -4,4 +4,4 @@
 1. HTML, CSS (SASS)
 2. JavaScript, jQuery (a plugin for the lightbox / a simple own code for the live search function)
 
-- [lightcase plugin](https://cornel.bopp-art.com/lightcase/)
+- Lightcase.js[link](https://cornel.bopp-art.com/lightcase/)
