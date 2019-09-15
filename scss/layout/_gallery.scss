@@ -23,6 +23,12 @@ body {
         &:focus {
             outline: none;
         }
+        @include mq('xs') {
+            width: 70%;
+        }
+        @include mq('sm') {
+            width: 60%;
+        }
     }
 }
 
@@ -43,14 +49,11 @@ body {
         @include mq('lg') {
             flex: 1 per-line(4);
         }
-      
+        a,
+        img {
+            @include mq('xs') {
+                width: 80%;
+            }
+        }
     }
-}
-
-.photos a img {
-    border: 1px solid red;
-}
-
-.photos a {
-    border: 1px solid red;
 }

@@ -19,18 +19,6 @@
     }
 }
 
-// Flexbox Setting
-@mixin flex(
-  $disp: flex,
-  $dir: null,
-  $wrap: null,
-  $just: null) {
-  display: $disp;
-  flex-direction: $dir;
-  flex-wrap: $wrap;
-  justify-content: $just;
-}
-
 // Create Flex Container
 @mixin flexy(
   $disp: flex,

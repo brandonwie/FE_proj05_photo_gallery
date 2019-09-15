@@ -479,6 +479,16 @@ body {
 .searcher .searchBox:focus {
   outline: none;
 }
+@media (max-width: 575px) {
+  .searcher .searchBox {
+    width: 70%;
+  }
+}
+@media (min-width: 576px) {
+  .searcher .searchBox {
+    width: 60%;
+  }
+}
 
 .photoGallery {
   margin-left: auto;
@@ -506,6 +516,12 @@ body {
 @media (min-width: 992px) {
   .photoGallery .photos {
     flex: 1 9%;
+  }
+}
+@media (max-width: 575px) {
+  .photoGallery .photos a,
+.photoGallery .photos img {
+    width: 80%;
   }
 }
 
