@@ -2,4 +2,6 @@
 # Interactive Photo Gallery
 ## Skills Used
 1. HTML, CSS (SASS)
-2. JavaScript, jQuery (plugin for the lightbox / own code JS/jQuery code for the live search function)
+2. JavaScript, jQuery (a plugin for the lightbox / a simple own code for the live search function)
+
+- [lightcase plugin](https://cornel.bopp-art.com/lightcase/)
