@@ -1,0 +1,15 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Breakpoints: created other possible breakpoints for further maintenances
+$breakpoints: (
+  'xs': 575px, 
+  'sm': 576px,
+ 'med': 768px,
+  'lg': 992px,  
+);
+
+// Layout
+$max-width: 1000px;
+$gutter: 20px;

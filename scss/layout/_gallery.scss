@@ -1,0 +1,56 @@
+// ======================================
+//  Photo Gallery
+// ======================================
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+}
+
+.searcher {
+    margin: 20px 0;
+    .searchBox {
+        width: 50%;
+        max-width: 460px;
+        line-height: 50px;
+        border: 2px solid lightgray;
+        padding-left: 16px;
+        border-radius: 10px;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.photoGallery {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    @include flexy($wrap: wrap, $just: space-evenly);
+    .photos {
+        @include flexy($just: center);
+        margin: 20px;
+        @include mq('xs') {
+            flex: 1 per-line(2);
+        }
+        @include mq('med') {
+            flex: 1 per-line(3);
+        }
+        @include mq('lg') {
+            flex: 1 per-line(4);
+        }
+      
+    }
+}
+
+.photos a img {
+    border: 1px solid red;
+}
+
+.photos a {
+    border: 1px solid red;
+}

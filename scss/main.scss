@@ -1,0 +1,16 @@
+// **************************************
+// main.scss
+// Main Sass file used to import partials
+// **************************************
+
+// Utilities
+@import 'utilities/variable';
+@import 'utilities/mixin';
+@import 'utilities/function';
+
+
+// Main Content
+@import 'base/reset';
+
+// Layout
+@import 'layout/gallery';
